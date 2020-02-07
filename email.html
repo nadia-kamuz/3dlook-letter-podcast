@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3DLOOK</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <style>
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+
+.btn {
+  box-shadow: 0px 6px 20px rgba(253,87,76,0.5) !important;
+}
+
+@media screen and (max-width: 600px) {
+  
+
+  .contact > td,
+.hello > td,
+.top-block > td,
+.footer > td {
+    padding: 0 20px !important;
+  }
+.top-block {
+  padding-right: 20px !important;
+}
+  .social-icons td {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+  }
+  .social-icons td a {
+    text-align: center;
+    line-height: 45px;
+  }
+  .social-icons td a img {
+    display: inline-block;
+    max-width: 22px;
+  }
+
+  
+  .social .hidden-desktop {
+    text-align: center;
+  }
+
+  
+
+  .content .hidden-desktop.article table tr:nth-child(2) td {
+    height: 113px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  table {
+    width: 100%;
+  }
+
+  .content .hello-img img {
+    width: 200px !important;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-left: 0px !important;
+  }
+
+}
+@media screen and (max-width: 375px) {
+  body {
+    background-color: #fff !important;
+  }
+  .top {
+    background-color: #fff !important;
+  }
+  .top-block a {
+    color: #282828 !important;
+  }
+
+  .bottom {
+    background-color: #fff !important;
+    display: none !important;
+  }
+
+  .dark {
+    display: none !important;
+    background-color: #fff !important;
+    padding-top: 0px !important;
+  }
+  .hidden-mobile {
+    display: none !important;
+  }
+   table {
+    width: 100% !important;
+  }
+  table.hidden-desktop {
+    display: table !important;
+  }
+  table.hidden-mobile {
+    display: none;
+  }
+  table tr.hidden-desktop {
+    display: table-row !important;
+  }
+  table tr.hidden-mobile {
+    display: none;
+  }
+  table tr td.hidden-desktop {
+    display: table-cell !important;
+  }
+  table tr td.hidden-mobile {
+    display: none;
+  }
+  .social table h3 {
+    margin: 10px 0 10px 20px !important;
+  }
+  .social table #follow-mobile {
+    display: table-cell !important;
+  }
+  .social table #follow-mobile img {
+    display: block;
+  }
+  .social table #follow-desktop {
+    display: none !important;
+  }
+  .contact .hidden-desktop .title h2 {
+    margin-top: 30px;
+  }
+  .contact .hidden-desktop .avatar {
+    display: inline-block;
+    width: 100px;
+  }
+  .contact .hidden-desktop .avatar img {
+    width: 100%;
+    max-width: 100px;
+    margin-top: 9px;
+  }
+  .contact .hidden-desktop .contact-info {
+    display: inline-block;
+    width: calc(100% - 100px);
+    box-sizing: border-box;
+    padding-left: 30px !important;
+    padding-top: 10px !important;
+  }
+  .contact .hidden-desktop .contact-info .name {
+    margin: 0;
+    margin-bottom: 5px !important;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+    font-weight: 700;
+  }
+  .contact .hidden-desktop .contact-info .position {
+    margin: 0 !important;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+  }
+  .contact .social-icons td {
+    margin: 30px 15px 20px 0 !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .contact .social-icons td a {
+    line-height: 56px !important;
+  }
+  .contact .social-icons td a img {
+    max-width: 32px !important;
+    width: 32px !important;
+  }
+  .contact .social-icons td .instagram {
+    line-height: 62px !important;
+  }
+  .contact .social-icons td .facebook {
+    line-height: 62px !important;
+  }
+  .contact .social-icons td .facebook img {
+    width: 15px !important;
+  }
+  .contact .address {
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 10px;
+    color: #9ca4b1;
+  }
+  .contact .address.second {
+    font-size: 12px;
+    line-height: 20px;
+    color: #9ca4b1;
+  }
+
+  .content .hidden-desktop.article table tr:nth-child(2) td {
+    height: 173px !important;
+  }
+}
+
+    </style>
+</head>
+<body style='margin:0;padding:0;background-color:#1D252D;font-family:"Roboto", Arial, sans-serif;'>
+    <div class="pre-text" style="visibility: hidden;mso-hide: all;font-size: 1px;color: #ffffff;line-height: 1px;max-height: 0px;max-width: 0px;opacity: 0;overflow: hidden;display: none !important;">Do you know how retail holiday sales analytics from 2019 will help you prepare for the best holiday season possible in 2020? We know!&zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;</div>
+    <table class="top" style="margin: 0 auto;border-collapse: collapse;border-spacing: 0;width: 600px; background-color: #1D252D;">
+      <tr>
+          <td>
+            <table border="0" cellpadding="0" cellspacing="0" width="600" align="center" class="top" style="margin:0 auto;border-collapse:collapse;border-spacing:0;">
+              <tr>
+                <td class="top-block" style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0; padding-top: 45px; padding-bottom: 10px; text-align: right; width: 100%;'>
+                  <a href="{{WebLetterUrl}}" style='color:rgba(255, 255,255, 0.7);font-family:"Roboto", Arial, sans-serif;text-decoration:none;text-decoration: underline; font-size: 12px; line-height: 14px; font-weight: 400; text-align: right;'>Web version</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+    </table>
+    <table class="container" style="margin: 0 auto;border-collapse: collapse;border-spacing: 0;width: 600px; background-color: #FFFFFF;">
+        <tr class="header">
+            <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
+                <table border="0" cellpadding="0" cellspacing="0" width="600" align="center" class="header-table" style="margin: 0 auto;border-collapse: collapse;border-spacing: 0;width: 600px;height: 18px;table-layout: fixed;margin-bottom: 58px;margin-top: 38px;">
+                    <tr>
+                        <td class="header-logo-container" width="119" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0 auto;display: block;">
+                            <a href="https://3dlook.me/?utm_source=newsletter&utm_medium=email&utm_campaign=email_newsletter&utm_content=december1st_2019" target="_blank" style="color: #282828;font-family: &quot;Roboto&quot;, Arial, sans-serif;text-decoration: none;">
+                                <img class="header-logo" src="https://nadia-kamuz.github.io/3dlook-letter-december/img/logo_3dlook_horizontal_white.png" alt="header-logo" style="position: relative;width: 119px;height: 18px;">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="content">
+            <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
+                <table width="480" align="center" class="main-content" style="margin: 0 auto;border-collapse: collapse;border-spacing: 0; margin-bottom: 50px;">
+                  <tr class="hello">
+                    <td align="center" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0; width: 480px!important;">
+                      <h2 style="color: #282828;font-size: 22px;font-weight: 700;letter-spacing: 0.55px;line-height: 25px;margin: 0; margin-bottom: 53px; text-align: center;">2019 Holiday Retail Sales Recap and lessons to learn for 2020</h2>
+                    </td>
+                  </tr>
+                  <tr class="hello">
+                    <td>
+                      <table class="hello-img" width="127" align="right">
+                        <tr>
+                          <td valign="top">
+                            <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/giphy.gif" alt="" style="width: 127px; padding-left: 20px; display: block;">
+                          </td>
+                        </tr>
+                      </table>
+                        <p style="color: #282828;font-size: 14px;line-height: 23px;margin-top: 0;font-family: &quot;Roboto&quot;, Arial, sans-serif;">2019 was a big year for retail spending, and holiday shopping is no exception.</p><p style="color: #282828;font-size: 14px;line-height: 23px;margin-top: 0;font-family: &quot;Roboto&quot;, Arial, sans-serif;" >Whether your business oversaw a lucrative Black Friday weekend or you’re hoping to make serious improvements, retail holiday sales analytics from 2019 will help you prepare for the best holiday season possible in 2020.</p>
+                    </td>
+                  </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="social">
+            <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
+                <table width="600" align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto;border-collapse: collapse;border-spacing: 0;width: 600px;">
+                    <tr>
+                        <td valign="top" id="follow-desktop" width="165" ; style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
+                            <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/desk1.png" style="width: 100%; display: block;">
+                        </td>
+                        <td valign="top" id="follow-desktop" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
+                            <a class="btn" href="https://3dlook.me/blog/2019-holiday-retail-sales-recap-lessons-to-learn-for-2020/?utm_source=newsletter&utm_medium=email&utm_campaign=email_newsletter&utm_content=december1st_2019" target="_blank" style="color: #fff;font-family: &quot;Roboto&quot;, Arial, sans-serif; text-decoration: none;z-index: 10;display: block;height: 50px;width: 199px;line-height: 50px; letter-spacing: 1px;background: #FD574C;font-size: 15px;font-weight: 400;text-align: center;overflow: hidden;box-shadow: 0px 6px 20px rgba(253,87,76,0.5) !important; border-radius: 4px;text-transform: uppercase;cursor: pointer;margin: 0 auto; margin-top: 110px;">View the trends</a>
+                        </td>
+                        <td valign="top" id="follow-desktop" width="165" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
+                            <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/desk2.png" style="width: 100%; display: block;">
+                        </td>
+                        <td valign="top" width="66" id="follow-mobile" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: none;">
+                            <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/mobile1.png" style="width: 66px; display: block;">
+                        </td>
+                        <td valign="top" id="follow-mobile" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0; display: none;">
+                            <a class="btn" href="https://3dlook.me/blog/2019-holiday-retail-sales-recap-lessons-to-learn-for-2020/?utm_source=newsletter&utm_medium=email&utm_campaign=email_newsletter&utm_content=december1st_2019" target="_blank" style="color: #fff;font-family: &quot;Roboto&quot;, Arial, sans-serif; text-decoration: none;z-index: 10;display: block;height: 50px;width: 199px;line-height: 50px; letter-spacing: 1px;background: #FD574C;font-size: 15px;font-weight: 400;text-align: center;overflow: hidden;box-shadow: 0px 6px 20px rgba(253,87,76,0.5) !important; border-radius: 4px;text-transform: uppercase;cursor: pointer;margin: 0 auto; margin-top: 61px;">View the trends</a>
+                        </td>
+                        <td valign="top" width="66" id="follow-mobile" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: none;">
+                            <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/mobile2.png" style="width: 66px; display: block;">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="social">
+            <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
+                <table width="600" align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto;border-collapse: collapse;border-spacing: 0;width: 600px;">
+                    <tr>
+                        <td valign="top" id="follow-desktop" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
+                            <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/desk3.png" style="width: 100%; display: block;">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="social">
+            <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto;border-collapse: collapse;border-spacing: 0;width: 375px;">
+                    <tr>
+                        <td valign="top" id="follow-mobile" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0; display: none;">
+                            <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/mobile3.png" style="width: 375px; display: block;">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="contact">
+            <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
+                <table width="480" class="hidden-mobile" style="margin: 0 auto;border-collapse: collapse;border-spacing: 0;display: table; margin-top: 50px;">
+                    <tr>
+                        <td class="avatar" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: inline-block;width: 81px;">
+                            <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/dariia.png" alt="Hi" width="81" height="81">
+                        </td>
+                        <td class="contact-info" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: inline-block;margin-left: 15px;padding-right: 0;width: 175px;height: 55px;">
+                            <span class="name" style="display: inline-block;font-size: 16px;line-height: 14px; color: #000;">
+                                <nobr>Dariia Zaporozhchenko</nobr>
+                            </span>
+                            <span class="position" style="font-size: 12px;line-height: 11px; font-style: italic; color: #282828;">Marketing Manager</span>
+                        </td>
+                        <td class="icons" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: inline-block;margin-left: 43px;">
+                            <table style="margin: 0 auto;border-collapse: collapse;border-spacing: 0; width: 165px; table-layout: auto;margin-top: 14px;">
+                                <tr class="social-icons">
+                                    <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: inline-block;width: 25px;height: 25px;margin-right: 10px;">
+                                        <a class="3dlook" href="https://3dlook.me/?utm_source=newsletter&utm_medium=email&utm_campaign=email_newsletter&utm_content=december1st_2019" target="_blank" style="color: #282828;font-family: &quot;Roboto&quot;, Arial, sans-serif;text-decoration: none;display: inline-block;width: 100%;height: 100%;background-color: #C8CCD3;line-height: 30px;text-align: center;">
+                                            <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/3dlook.png" alt="3dlook" style="width: 17px;">
+                                        </a>
+                                    </td>
+                                    <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: inline-block;width: 25px;height: 25px;margin-right: 10px;">
+                                        <a class="linkedin" href="https://www.linkedin.com/company/3dlook/" target="_blank" style="color: #282828;font-family: &quot;Roboto&quot;, Arial, sans-serif;text-decoration: none;display: inline-block;width: 100%;height: 100%;background-color: #C8CCD3;line-height: 30px;text-align: center;">
+                                            <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/linkedin.png" alt="linkedin" style="width: 17px;">
+                                        </a>
+                                    </td>
+                                    <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: inline-block;width: 25px;height: 25px;margin-right: 10px;">
+                                        <a class="instagram" href="https://www.instagram.com/3dlook_me/" target="_blank" style="color: #282828;font-family: &quot;Roboto&quot;, Arial, sans-serif;text-decoration: none;display: inline-block;width: 100%;height: 100%;background-color: #C8CCD3;line-height: 32px;text-align: center;">
+                                            <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/instagram.png" alt="instagram" style="width: 17px;">
+                                        </a>
+                                    </td>
+                                    <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: inline-block;width: 25px;height: 25px;margin-right: 10px;">
+                                        <a class="twitter" href="https://twitter.com/3dlook_me" target="_blank" style="color: #282828;font-family: &quot;Roboto&quot;, Arial, sans-serif;text-decoration: none;display: inline-block;width: 100%;height: 100%;background-color: #C8CCD3;line-height: 30px;text-align: center;">
+                                            <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/twitter.png" alt="twitter" style="width: 17px;">
+                                        </a>
+                                    </td>
+                                    <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: inline-block;width: 25px;height: 25px;margin-right: 0!important;">
+                                        <a class="facebook" href="https://www.facebook.com/3DLOOK.me/" target="_blank" style="color: #282828;font-family: &quot;Roboto&quot;, Arial, sans-serif;text-decoration: none;display: inline-block;width: 100%;height: 100%;background-color: #C8CCD3;line-height: 34px;text-align: center;">
+                                            <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/facebook.png" alt="facebook" style="width: 9px;">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="address" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
+                                        <span style="display: inline-block;font-size: 12px;line-height: 20px;color: #9CA4b1;margin-top: 12px;">
+                                            <nobr>San Mateo, CA 94401</nobr>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="address second" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
+                                        <span style="display: inline-block;font-size: 12px;line-height: 20px;color: #9CA4b1;margin-top: 0;">
+                                            <nobr>55 East 3rd Avenue</nobr>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table class="hidden-desktop" style="margin: 0 auto;border-collapse: collapse;border-spacing: 0;display: none; margin-top: 50px; text-align: center;">
+                    <tr>
+                        <td class="avatar" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
+                            <img  src="https://nadia-kamuz.github.io/3dlook-letter-december/img/dariia.png" alt="manager-mobile">
+                        </td>
+                        <td class="contact-info" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
+                            <p class="name" style="color: #000;font-size: 16px;line-height: 20px;margin-top: 0;margin-bottom: 39px;font-family: &quot;Roboto&quot;, Arial, sans-serif; font-weight: 400; text-align: left;">
+                                <nobr>Dariia Zaporozhchenko</nobr>
+                            </p>
+                            <p class="position" style="color: #282828;font-size: 12px; font-style:italic; line-height: 20px;margin-top: 0;margin-bottom: 39px;font-family: &quot;Roboto&quot;, Arial, sans-serif; text-align: left;">
+                                <nobr>Marketing Manager</nobr>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="social-icons">
+                        <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: inline-block;width: 25px;height: 25px;margin-right: 10px;">
+                            <a class="3dlook" href="https://3dlook.me/?utm_source=newsletter&utm_medium=email&utm_campaign=email_newsletter&utm_content=december1st_2019" target="_blank" style="color: #282828;font-family: &quot;Roboto&quot;, Arial, sans-serif;text-decoration: none;display: inline-block;width: 100%;height: 100%;background-color: #C8CCD3;line-height: 30px;text-align: center;">
+                                <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/3dlook.png" alt="3dlook" style="width: 17px;">
+                            </a>
+                        </td>
+                        <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: inline-block;width: 25px;height: 25px;margin-right: 10px;">
+                            <a class="linkedin" href="https://www.linkedin.com/company/3dlook/" target="_blank" style="color: #282828;font-family: &quot;Roboto&quot;, Arial, sans-serif;text-decoration: none;display: inline-block;width: 100%;height: 100%;background-color: #C8CCD3;line-height: 30px;text-align: center;">
+                                <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/linkedin.png" alt="linkedin" style="width: 17px;">
+                            </a>
+                        </td>
+                        <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: inline-block;width: 25px;height: 25px;margin-right: 10px;">
+                            <a class="instagram" href="https://www.instagram.com/3dlook_me/" target="_blank" style="color: #282828;font-family: &quot;Roboto&quot;, Arial, sans-serif;text-decoration: none;display: inline-block;width: 100%;height: 100%;background-color: #C8CCD3;line-height: 32px;text-align: center;">
+                                <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/instagram.png" alt="instagram" style="width: 17px;">
+                            </a>
+                        </td>
+                        <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: inline-block;width: 25px;height: 25px;margin-right: 10px;">
+                            <a class="twitter" href="https://twitter.com/3dlook_me" target="_blank" style="color: #282828;font-family: &quot;Roboto&quot;, Arial, sans-serif;text-decoration: none;display: inline-block;width: 100%;height: 100%;background-color: #C8CCD3;line-height: 30px;text-align: center;">
+                                <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/twitter.png" alt="twitter" style="width: 17px;">
+                            </a>
+                        </td>
+                        <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: inline-block;width: 25px;height: 25px;margin-right: 0;">
+                            <a class="facebook" href="https://www.facebook.com/3DLOOK.me/" target="_blank" style="color: #282828;font-family: &quot;Roboto&quot;, Arial, sans-serif;text-decoration: none;display: inline-block;width: 100%;height: 100%;background-color: #C8CCD3;line-height: 34px;text-align: center;">
+                                <img src="https://nadia-kamuz.github.io/3dlook-letter-december/img/facebook.png" alt="facebook" style="width: 9px;">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr style="color: #9CA4b1!important; text-decoration: none !important;">
+                        <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0; color: #9CA4b1!important;">
+                            <span class="address" style="color: #9CA4b1!important; text-decoration: none!important;">San Mateo, CA 94401</span><br>
+                            <span class="address second" style="color: #9CA4b1!important; text-decoration: none!important;">55 East 3rd Avenue</span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="footer">
+          <td>
+            <table width="480" style="margin:0 auto;border-collapse:collapse;border-spacing:0;margin-top:58px; margin-bottom: 39px;">
+              <tr>
+                <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0; font-size: 10px; line-height: 12px; color:#B6B6B6 !important;'>
+                  <p class="desc first" style='color:#B6B6B6!important; font-size:10px !important;line-height:12px!important;margin-top:0;margin-bottom:39px;font-family:"Roboto", Arial, sans-serif;font-size:10px;line-height:12px;color: rgba(182, 182, 182, 0.7)!important;margin-bottom:37px;margin-bottom:14px;'>In the past you provided 3DLOOK with your email address. Occasionally you will receive emails from us with news and updates about 3DLOOK. If you no longer want to receive these emails just press <a href="{{UnsubscribeUrl}}" style='font-family:"Roboto", Arial, sans-serif;text-decoration:none;color:#B6B6B6 !important;font-weight:bold;text-decoration: underline;'>unsubscribe</a> and you’ll be removed from our list. For information about how we process data and monitor communications please see our <a href="https://3dlook.me/privacy-policy/" target="_blank" style='font-family:"Roboto", Arial, sans-serif;text-decoration:none;color:#B6B6B6;font-weight:bold;text-decoration: underline;'>Privacy Policy</a> and <a href="https://3dlook.me/terms-of-service/" target="_blank" style='font-family:"Roboto", Arial, sans-serif;text-decoration:none;color:#B6B6B6 !important;font-weight:bold !important; text-decoration: underline;'>Terms of Use</a></p>
+                </td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+    </table>
+    <table style="margin: 0 auto;border-collapse: collapse;border-spacing: 0;width: 600px;">
+      <tr>
+          <td>
+            <table class="bottom" border="0" cellpadding="0" cellspacing="0" width="600" align="center" class="top" style="margin:0 auto;border-collapse:collapse;border-spacing:0; background-color: #1D252D;">
+              <tr>
+                <td class="dark" style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0; padding-top: 45px; width: 100%;'>
+                  
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+    </table>
+</body>
+</html>
